@@ -2,7 +2,7 @@
 
 require 'pulumi'
 
-access_token = "pul-6070199f4d16794c4e485fcafeeff6d1770096b5"
+access_token = "1234"
 
 p = Pulumi.new(access_token)
 
