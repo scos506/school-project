@@ -3,7 +3,7 @@
 require 'httparty'
 require 'json'
 
-token = "uGzLSHiAMS73uA.atlasv1.OLT2mEZMy29ixbGlKhQAyb0kxCkZIfLxz0rR7U3B6YVOfHzAzhc296HvK0UOTAmXaYk"
+token = "12345"
 
 response = HTTParty.get("https:/terraform.io/api/something",
                         :headers => {
